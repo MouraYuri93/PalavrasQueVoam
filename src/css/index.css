@@ -69,12 +69,12 @@ p {
 }
 
 .conteudo-titulo span.titulo {
-    color: #fff;
-    background-color: #111;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+  color: #fff;
+  background-color: #111;
+  padding: 15px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 footer {
@@ -110,3 +110,17 @@ footer {
     background-color: black; /* Alterado para variável de fundo para manter a consistência */
   }
   
+/* Media queries para tornar o texto mais responsivo */
+@media screen and (max-width: 768px) {
+  .conteudo-titulo span.titulo {
+      font-size: 20px; /* Reduzindo o tamanho da fonte para telas menores */
+      padding: 10px; /* Diminuindo o padding para telas menores */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .conteudo-titulo span.titulo {
+      font-size: 18px; /* Ajuste adicional para telas ainda menores */
+      padding: 5px; /* Redução mais significativa do padding */
+  }
+}
