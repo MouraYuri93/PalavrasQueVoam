@@ -25,7 +25,7 @@ p {
     margin-bottom: 20px;
 }
 /* Efeito Parallax */
-.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7 {
     position: relative;
     height: 100%;
     opacity: 0.7;
@@ -57,6 +57,10 @@ p {
 
 .caixa6 {
     background-image: url('../img/imagem9.jpg');
+}
+
+.caixa7 {
+  background-image: url('../img/imagem4.jpg');
 }
 
 
