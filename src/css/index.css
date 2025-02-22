@@ -25,7 +25,7 @@ p {
     margin-bottom: 20px;
 }
 /* Efeito Parallax */
-.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8 {
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9 {
     position: relative;
     height: 100%;
     opacity: 0.7;
@@ -67,6 +67,9 @@ p {
   background-image: url('../img/imagem10.png');
 }
 
+.caixa9 {
+  background-image: url('../img/imagem11.webp');
+}
 
 .conteudo-titulo {
     position: absolute;
